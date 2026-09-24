@@ -1,0 +1,14 @@
+{
+  "name": "docker-frontend",
+  "version": "1.0.0",
+  "description": "Express frontend communicating with Flask backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
